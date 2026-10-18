@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        权限说明：
+        · 本应用完全离线，刻意不声明任何网络权限（无 INTERNET / ACCESS_NETWORK_STATE）；
+        · 唯一的权限 VIBRATE 只服务于「作死模式」里模拟来电的震动效果，
+          它是普通权限（安装即授予、无运行时弹窗），不涉及任何隐私数据读取。
+    -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".SuperLoanApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SuperLoan">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SuperLoan"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 图标前景：白色人民币符号 ¥ -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 左斜杠 -->
+    <path
+        android:pathData="M38,30 L54,53"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- 右斜杠 -->
+    <path
+        android:pathData="M70,30 L54,53"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- 竖杠 -->
+    <path
+        android:pathData="M54,50 L54,80"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- 上横杠 -->
+    <path
+        android:pathData="M40,59 L68,59"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- 下横杠 -->
+    <path
+        android:pathData="M40,70 L68,70"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+</vector>

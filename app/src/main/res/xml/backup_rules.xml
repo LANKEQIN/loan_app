@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 云备份规则：仅备份本应用的数据，不涉及网络传输声明 -->
+<full-backup-content>
+    <include domain="file" path="datastore" />
+</full-backup-content>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 窗口背景（浅色） -->
+    <color name="window_background">#FFFBF8F6</color>
+    <!-- 自适应图标背景色 -->
+    <color name="ic_launcher_background">#1F6F4A</color>
+</resources>
